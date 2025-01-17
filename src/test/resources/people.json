@@ -1,0 +1,14 @@
+{
+  "people": [
+    {
+      "name": "Arsen Beglaryan",
+      "age": 26,
+      "phones": ["918-123-4567", "918-987-6543"]
+    },
+    {
+      "name": "Angelina Beglaryan",
+      "age": 20,
+      "phones": ["918-123-9876"]
+    }
+  ]
+}
