@@ -31,7 +31,7 @@ public class FilesParsingTestsHW9 {
                 getClass().getResourceAsStream(workWithFiles.getZipName())
         )) {
             ZipEntry entry;
-            List<String> expectedFiles = List.of("files/sample/file1.pdf", "files/sample/file2.xlsx","files/sample/file3.csv");
+            List<String> expectedFiles = List.of("file1.pdf", "file2.xlsx","file3.csv");
             List<String> actualFiles = new ArrayList<>();
 
             while ((entry = zis.getNextEntry()) != null) {
